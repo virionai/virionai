@@ -12,33 +12,37 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# Virion
+<p align="center">
+  <a href="https://virion.ai">
+    <img src="assets/virion-profile-hero.gif" alt="Virion.ai interactive geodesic atlas" width="100%">
+  </a>
+</p>
 
-Virion builds portable, verifiable work artifacts for AI-mediated systems.
+<p align="center">
+  <a href="https://virion.ai">
+    <img src="assets/button-virion.svg" alt="Enter Virion.ai" height="44">
+  </a>
+  <a href="https://capsules.run">
+    <img src="assets/button-capsules.svg" alt="Open Capsules.run" height="44">
+  </a>
+  <a href="https://github.com/virionai/capsules-protocol">
+    <img src="assets/button-protocol.svg" alt="Read the Protocol" height="44">
+  </a>
+</p>
 
-The current focus is Capsules: an open protocol for AI-readable work products that carry context, payloads, provenance, participants, and continuation state across people, models, and tools.
+---
 
-## Start Here
+## Virion
 
-- [Capsules Protocol](https://github.com/virionai/capsules-protocol)  
-  Open protocol, SDKs, verifier, conformance harness, and v0.6 spec.
+Portable, verifiable work artifacts for AI-mediated systems.
 
-- [Capsules.run](https://capsules.run)  
-  Live reader, verifier, conformance surface, and protocol demos.
+The durable output of AI work should not be a chat transcript. It should be an artifact another person, model, system, auditor, or regulator can open later, verify offline, and continue.
 
-- [Operators](https://github.com/virionai/operators)  
-  Local-first investigation workspace for evidence, local model reasoning, visible ledger events, and Capsule handoff.
-
-## What Virion Is Building
-
-- Portable AI work products
-- Offline-verifiable provenance
-- Multi-actor evidence trails
-- Local-first investigative workspaces
-- Human and model handoff surfaces
-
-The thesis is simple: the durable output of AI work should not be a chat transcript. It should be a verifiable artifact that another person, model, system, auditor, or regulator can open later and understand.
-
-## Status
-
-Capsules Protocol is currently a v0.6 prototype with JavaScript, Python, Swift, Kotlin, and Rust verification lanes. The next major milestone is protocol hardening toward v1.0.
+<p align="center">
+  <a href="https://virion.ai">
+    <img src="assets/tile-virion.png" alt="Virion.ai company atlas" width="48%">
+  </a>
+  <a href="https://capsules.run">
+    <img src="assets/tile-capsules.png" alt="Capsules.run protocol surface" width="48%">
+  </a>
+</p>
