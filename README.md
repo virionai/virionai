@@ -2,18 +2,23 @@
 Profile README for the virionai GitHub profile.
 Place this at README.md in the special virionai/virionai repository.
 -->
+
 <p align="center">
   <a href="https://virion.ai">
     <img src="https://virion.ai/favicon.svg" width="88" alt="Virion">
   </a>
 </p>
+
 <h1 align="center">Virion</h1>
+
 <p align="center">
   <strong>Infrastructure for intelligence that moves.</strong>
 </p>
+
 <p align="center">
   Portable work. Verifiable context. Local intelligence. Human and AI systems that can pick up where another left off.
 </p>
+
 <p align="center">
   <a href="https://virion.ai">Virion.ai</a>
   ·
@@ -25,20 +30,35 @@ Place this at README.md in the special virionai/virionai repository.
   ·
   <a href="https://virion.ai/initiate">Collaborate</a>
 </p>
+
 ---
+
 ## The bet
+
 AI makes intelligence abundant.
+
 The bottleneck is no longer only generation. The bottleneck is movement.
+
 How does useful intelligence move between people, models, devices, organizations, workflows, and time without collapsing into screenshots, chat logs, PDFs, or proprietary app state?
+
 Virion is building the substrate for that movement.
+
 A durable AI work product should be something another actor can open cold, inspect, verify, continue, and hand off again. It should carry the work, the evidence, the participants, the decisions, the context, and the record of how it got there.
+
 Not just a file.
+
 Not just a document.
+
 Not just an agent framework.
+
 A transport layer for intelligence.
+
 ---
+
 ## What we build
+
 Virion works on open infrastructure for portable, traceable, multi-actor AI work.
+
 | Area | What it means |
 | --- | --- |
 | **Capsules** | Portable AI work artifacts that carry content, context, participants, payloads, and a verifiable event chain. |
@@ -46,12 +66,81 @@ Virion works on open infrastructure for portable, traceable, multi-actor AI work
 | **Research Brains** | AI-maintained research graphs where raw evidence compounds into structured knowledge. |
 | **Evidence Systems** | Provenance-first patterns for regulated, high-consequence, multi-party work. |
 | **Model Harnesses** | Runtime surfaces for local models, agent loops, evaluation, and handoff. |
+
 ---
+
 ## Open source projects
+
 ### [`capsules-protocol`](https://github.com/virionai/capsules-protocol)
+
 **The open protocol for portable, signed, AI-readable records of multi-actor work.**
+
 Capsules define a portable unit of intelligence: a deterministic `.capsule` archive that carries a readable work surface, payload files, participants, embedded skills, and an append-only event chain.
+
 The goal is simple: work should survive the tool that created it.
+
+- Protocol specification
+- JavaScript, Python, Swift, Kotlin, and Rust verification paths
+- CLI and browser-readable capsule inspection
+- Conformance harness
+- Tamper detection
+- Offline-first verification
+
+Live surfaces:
+
+- [Open or verify a capsule](https://capsules.run/load/)
+- [View conformance](https://capsules.run/conformance/)
+- [Read the roadmap](https://capsules.run/roadmap/)
+
+---
+
+### [`operators`](https://github.com/virionai/operators)
+
+**A local-first investigative workspace for turning evidence into portable work.**
+
+Operators is the command surface: an offline-capable workspace where a human operator and a local model can inspect evidence, capture context, create decision gates, maintain continuity, and export a capsule-shaped handoff.
+
+It is built around the idea that serious AI work needs an operational surface, not just a chat box.
+
+- Local browser workspace
+- Ollama / Gemma runtime path
+- Deterministic fallback mode
+- Workspace modules for notes, diagrams, timelines, tables, graphs, evidence, and artifacts
+- Visible event continuity
+- Local export path toward Capsule handoff
+
+Live surface:
+
+- [Open the Operator](https://capsules.run/operator/)
+
+---
+
+### [`capsules-gemma-4-good`](https://github.com/virionai/capsules-gemma-4-good)
+
+**Gemma 4 makes intelligence local. Capsules make it transferable.**
+
+This project frames the core thesis in one sentence: local models are powerful, but local intelligence becomes more valuable when it can move.
+
+The submission explores how a local model and an operator can transform evidence and context into a portable `.capsule` file that another person, model, or device can open, verify, and continue.
+
+Use cases include disaster response, research handoff, business continuity, local-first investigations, and disconnected environments.
+
+---
+
+### [`researcher-brain`](https://github.com/virionai/researcher-brain)
+
+**A second brain for research in the era when AI does not just retrieve knowledge. It produces it.**
+
+Researcher-Brain is a reusable scaffold for building AI-maintained research wikis from raw evidence, notes, long-form AI investigations, images, and primary sources.
+
+It follows a loop:
+
+```mermaid
+flowchart LR
+    TODO["Research queue"] --> RAW["Raw evidence"]
+    RAW --> WIKI["AI-maintained wiki graph"]
+    WIKI --> OUT["Answers + confidence"]
+    WIKI -.-> TODOThe goal is simple: work should survive the tool that created it.
 - Protocol specification
 - JavaScript, Python, Swift, Kotlin, and Rust verification paths
 - CLI and browser-readable capsule inspection
