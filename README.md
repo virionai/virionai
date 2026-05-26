@@ -140,93 +140,58 @@ flowchart LR
     TODO["Research queue"] --> RAW["Raw evidence"]
     RAW --> WIKI["AI-maintained wiki graph"]
     WIKI --> OUT["Answers + confidence"]
-    WIKI -.-> TODOThe goal is simple: work should survive the tool that created it.
-- Protocol specification
-- JavaScript, Python, Swift, Kotlin, and Rust verification paths
-- CLI and browser-readable capsule inspection
-- Conformance harness
-- Tamper detection
-- Offline-first verification
-Live surfaces:
-- [Open or verify a capsule](https://capsules.run/load/)
-- [View conformance](https://capsules.run/conformance/)
-- [Read the roadmap](https://capsules.run/roadmap/)
----
-### [`operators`](https://github.com/virionai/operators)
-**A local-first investigative workspace for turning evidence into portable work.**
-Operators is the command surface: an offline-capable workspace where a human operator and a local model can inspect evidence, capture context, create decision gates, maintain continuity, and export a capsule-shaped handoff.
-It is built around the idea that serious AI work needs an operational surface, not just a chat box.
-- Local browser workspace
-- Ollama / Gemma runtime path
-- Deterministic fallback mode
-- Workspace modules for notes, diagrams, timelines, tables, graphs, evidence, and artifacts
-- Visible event continuity
-- Local export path toward Capsule handoff
-Live surface:
-- [Open the Operator](https://capsules.run/operator/)
----
-### [`capsules-gemma-4-good`](https://github.com/virionai/capsules-gemma-4-good)
-**Gemma 4 makes intelligence local. Capsules make it transferable.**
-This project frames the core thesis in one sentence: local models are powerful, but local intelligence becomes more valuable when it can move.
-The submission explores how a local model and an operator can transform evidence and context into a portable `.capsule` file that another person, model, or device can open, verify, and continue.
-Use cases include disaster response, research handoff, business continuity, local-first investigations, and disconnected environments.
----
-### [`researcher-brain`](https://github.com/virionai/researcher-brain)
-**A second brain for research in the era when AI does not just retrieve knowledge. It produces it.**
-Researcher-Brain is a reusable scaffold for building AI-maintained research wikis from raw evidence, notes, long-form AI investigations, images, and primary sources.
-It follows a loop:
-```mermaid
-flowchart LR
-    TODO["Research queue"] --> RAW["Raw evidence"]
-    RAW --> WIKI["AI-maintained wiki graph"]
-    WIKI --> OUT["Answers + confidence"]
     WIKI -.-> TODO
+```
 
 The point is not to make another note-taking app.
 
 The point is to structure a corpus so an AI system can read, organize, cross-link, question, and improve it over time.
 
-* Immutable raw evidence
-* Slug-addressed sources
-* AI-maintained Logseq graph
-* Research routines
-* Cross-domain probes
-* Confidence files
-* Durable citations
+- Immutable raw evidence
+- Slug-addressed sources
+- AI-maintained Logseq graph
+- Research routines
+- Cross-domain probes
+- Confidence files
+- Durable citations
 
-⸻
+---
 
-The system shape
+## The system shape
 
+```mermaid
 flowchart TB
     A["Raw Evidence"] --> B["Structured Context"]
     B --> C["AI / Human Work"]
     C --> D["Verifiable Event Chain"]
     D --> E["Portable Capsule"]
     E --> F["Another Person, Model, Device, or Organization"]
+
     B -.-> G["Research Brain"]
     C -.-> H["Operator Workspace"]
     D -.-> I["Conformance + Verification"]
+```
 
 The throughline across the repos:
 
-Intelligence should not be trapped inside the runtime that produced it.
+> Intelligence should not be trapped inside the runtime that produced it.
 
-⸻
+---
 
-Principles
+## Principles
 
-Principle	Position
-Portable by default	Work should move across tools, models, teams, and time.
-Verification before trust	Recipients should be able to inspect what changed, who changed it, and what evidence was carried.
-Local-first where possible	Intelligence should run close to the operator, especially in disconnected or sensitive environments.
-Human-readable, machine-readable	AI work products should be legible to people and structured enough for models.
-Context is infrastructure	The future bottleneck is not only compute. It is the transfer of usable state.
-Open protocols beat trapped platforms	The file should remain useful even when the app disappears.
+| Principle | Position |
+| --- | --- |
+| **Portable by default** | Work should move across tools, models, teams, and time. |
+| **Verification before trust** | Recipients should be able to inspect what changed, who changed it, and what evidence was carried. |
+| **Local-first where possible** | Intelligence should run close to the operator, especially in disconnected or sensitive environments. |
+| **Human-readable, machine-readable** | AI work products should be legible to people and structured enough for models. |
+| **Context is infrastructure** | The future bottleneck is not only compute. It is the transfer of usable state. |
+| **Open protocols beat trapped platforms** | The file should remain useful even when the app disappears. |
 
-⸻
+---
 
-Why this exists
+## Why this exists
 
 Modern AI systems are becoming better at producing useful work, but the work often dies in the interface.
 
@@ -242,28 +207,28 @@ Virion is working on the missing layer between cognition and coordination: artif
 
 That means:
 
-* A researcher can hand a corpus to another model without losing provenance.
-* A local operator can seal an investigation for another team.
-* A regulator can inspect the chain months later.
-* A model can resume work without needing the original chat.
-* A platform can exchange intelligence without forcing everyone into the same app.
+- A researcher can hand a corpus to another model without losing provenance.
+- A local operator can seal an investigation for another team.
+- A regulator can inspect the chain months later.
+- A model can resume work without needing the original chat.
+- A platform can exchange intelligence without forcing everyone into the same app.
 
-⸻
+---
 
-Current focus
+## Current focus
 
-* Capsule v0.6 protocol hardening
-* Cross-language conformance
-* Browser-based capsule verification
-* Local-first operator workflows
-* Research graph scaffolds
-* Evidence and provenance interfaces
-* Human / AI continuation surfaces
-* Better public examples and reference capsules
+- Capsule v0.6 protocol hardening
+- Cross-language conformance
+- Browser-based capsule verification
+- Local-first operator workflows
+- Research graph scaffolds
+- Evidence and provenance interfaces
+- Human / AI continuation surfaces
+- Better public examples and reference capsules
 
-⸻
+---
 
-For collaborators
+## For collaborators
 
 This is early, real, and moving quickly.
 
@@ -273,18 +238,19 @@ It is transferable intelligence.
 
 Start here:
 
-* Read the protocol￼
-* Open a capsule￼
-* Try the Operator￼
-* Explore Researcher-Brain￼
-* Contact Virion￼
+- [Read the protocol](https://github.com/virionai/capsules-protocol)
+- [Open a capsule](https://capsules.run/load/)
+- [Try the Operator](https://capsules.run/operator/)
+- [Explore Researcher-Brain](https://github.com/virionai/researcher-brain)
+- [Contact Virion](https://virion.ai/initiate)
 
-⸻
+---
 
 <p align="center">
   <strong>AI makes intelligence abundant.</strong><br>
   <strong>Virion works on how it moves.</strong>
 </p>
+
 <p align="center">
   <a href="https://virion.ai">Virion.ai</a>
   ·
@@ -296,4 +262,3 @@ Start here:
   ·
   <a href="https://github.com/virionai/researcher-brain">Researcher-Brain</a>
 </p>
-```
