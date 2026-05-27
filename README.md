@@ -24,7 +24,11 @@ AI made intelligence abundant. The bottleneck now is movement — between people
 
 ---
 
-## Projects
+## Open source
+
+These three repos are the public surface of Virion's work. They represent the protocol layer, the operational layer, and the research layer — the parts we believe should be open, inspectable, and forkable.
+
+The applied work — regulated-industry deployments, product surfaces, and active client systems — lives at **[virion.ai](https://virion.ai)**.
 
 <table>
   <tr>
@@ -73,4 +77,4 @@ AI made intelligence abundant. The bottleneck now is movement — between people
 
 ---
 
-<sub><strong>AI makes intelligence abundant. Virion works on how it moves.</strong></sub>
+<sub><strong>Open infrastructure for intelligence that moves. Applied systems at <a href="https://virion.ai">virion.ai</a>.</strong></sub>
