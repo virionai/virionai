@@ -9,10 +9,9 @@ Place this at README.md in the special virionai/virionai repository.
   </a>
 </p>
 <h1 align="center">Virion.ai</h1>
-<p align="center"><em>Infect Intelligence</em></p>
-<p align="center">
-  <sub>· · ·</sub>
-</p>
+<p align="center"><strong>I N F E C T &nbsp; I N T E L L I G E N C E</strong></p>
+
+---
 
 <p align="center">
   <a href="https://virion.ai">Virion.ai</a>
