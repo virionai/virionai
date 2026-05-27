@@ -1,15 +1,10 @@
-<table width="100%">
+<table>
   <tr>
-    <td width="25%" valign="right">
-      <a href="https://virion.ai">
-        <img src="https://virion.ai/favicon.svg" width="200" alt="Virion">
-      </a>
-    </td>
-    <td width="50%" valign="middle">
+    <td width="780" valign="middle">
       <h1>Virion</h1>
-      <strong><em>Infect Intelligence</em></strong>
+      <strong>I N F E C T &nbsp; I N T E L L I G E N C E</strong>
     </td>
-    <td width="25%" align="right" valign="middle">
+    <td width="220" align="right" valign="middle">
       <sub>
         <a href="https://virion.ai">virion.ai</a> ·
         <a href="https://capsules.run">capsules.run</a><br>
