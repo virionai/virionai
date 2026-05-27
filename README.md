@@ -30,7 +30,7 @@ AI made intelligence abundant. The bottleneck now is movement — between people
   <tr>
     <td width="80" valign="top">
       <a href="https://github.com/virionai/capsules-protocol">
-        <img src="https://github.com/virionai/.github/raw/main/assets/capsules-icon.png" width="64" alt="Capsules Protocol">
+        <img src="https://github.com/virionai/virionai/raw/main/capsules-icon.png" width="64" alt="Capsules Protocol">
       </a>
     </td>
     <td width="920" valign="top">
@@ -45,32 +45,8 @@ AI made intelligence abundant. The bottleneck now is movement — between people
   <tr>
     <td width="80" valign="top">
       <a href="https://github.com/virionai/operators">
-        <img src="https://github.com/virionai/.github/raw/main/assets/operator-icon.png" width="64" alt="Operators">
+        <img src="https://github.com/virionai/virionai/raw/main/operator-icon.png" width="64" alt="Operators">
       </a>
     </td>
     <td width="920" valign="top">
-      <h3><a href="https://github.com/virionai/operators">operators</a> &nbsp;→&nbsp; <em>A harness built for work.</em></h3>
-      Local-first investigative workspace. Humans and local models inspect evidence, capture context, set decision gates, and export a capsule-shaped handoff. Serious AI work needs an operational surface, not a chat box.<br>
-      <sub><a href="https://capsules.run/operator/">Open the Operator</a></sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="80" valign="top">
-      <a href="https://github.com/virionai/researcher-brain">
-        <img src="https://github.com/virionai/.github/raw/main/assets/researcher-brain-icon.png" width="64" alt="Researcher Brain">
-      </a>
-    </td>
-    <td width="920" valign="top">
-      <h3><a href="https://github.com/virionai/researcher-brain">researcher-brain</a> &nbsp;→&nbsp; <em>Because discovery is the whole point.</em></h3>
-      A second brain for research in the era when AI produces knowledge, not just retrieves it. A scaffold that turns raw evidence into an AI-maintained graph that compounds over time.<br>
-      <sub>Immutable evidence · slug-addressed sources · cross-domain probes · durable citations</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-<sub><strong>AI makes intelligence abundant. Virion works on how it moves.</strong></sub>
+      <h3><a href="https://github.com/virionai/operators">operators</a> &nbsp;
