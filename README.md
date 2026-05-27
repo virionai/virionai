@@ -1,11 +1,11 @@
 <table width="100%">
   <tr>
-    <td width="25%" valign="middle">
+    <td width="25%" valign="right">
       <a href="https://virion.ai">
         <img src="https://virion.ai/favicon.svg" width="200" alt="Virion">
       </a>
     </td>
-    <td valign="middle">
+    <td width="50%" valign="middle">
       <h1>Virion</h1>
       <strong><em>Infect Intelligence</em></strong>
     </td>
