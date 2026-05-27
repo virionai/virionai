@@ -10,11 +10,7 @@ Place this at README.md in the special virionai/virionai repository.
 </p>
 
 <h1 align="center">Virion</h1>
-
-<p align="center">
-  <strong>Infect Intelligence</strong>
-</p>
-
+<p align="center"> <strong>Infect Intelligence</strong> </p>
 <p align="center">
   Portable work. Verifiable context. Local intelligence. Human and AI systems that can pick up where another left off.
 </p>
