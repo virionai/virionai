@@ -115,18 +115,6 @@ Live surface:
 
 ---
 
-### [`capsules-gemma-4-good`](https://github.com/virionai/capsules-gemma-4-good)
-
-**Gemma 4 makes intelligence local. Capsules make it transferable.**
-
-This project frames the core thesis in one sentence: local models are powerful, but local intelligence becomes more valuable when it can move.
-
-The submission explores how a local model and an operator can transform evidence and context into a portable `.capsule` file that another person, model, or device can open, verify, and continue.
-
-Use cases include disaster response, research handoff, business continuity, local-first investigations, and disconnected environments.
-
----
-
 ### [`researcher-brain`](https://github.com/virionai/researcher-brain)
 
 **A second brain for research in the era when AI does not just retrieve knowledge. It produces it.**
