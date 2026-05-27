@@ -5,14 +5,13 @@ Place this at README.md in the special virionai/virionai repository.
 
 <p align="center">
   <a href="https://virion.ai">
-    <img src="https://virion.ai/favicon.svg" width="88" alt="Virion">
+    <img src="https://virion.ai/favicon.svg" width="72" alt="Virion">
   </a>
 </p>
-
-<h1 align="center">Virion</h1>
-<p align="center"> <strong>Infect Intelligence</strong> </p>
+<h1 align="center">Virion.ai</h1>
+<p align="center"><em>Infect Intelligence</em></p>
 <p align="center">
-  Portable work. Verifiable context. Local intelligence. Human and AI systems that can pick up where another left off.
+  <sub>· · ·</sub>
 </p>
 
 <p align="center">
