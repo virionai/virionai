@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td width="780" valign="middle">
-      <h1>Virion</h1>
+      <h1>Virion.ai</h1>
       <strong>I N F E C T &nbsp; I N T E L L I G E N C E</strong>
     </td>
     <td width="220" align="right" valign="middle">
@@ -28,12 +28,12 @@ AI made intelligence abundant. The bottleneck now is movement — between people
 
 <table>
   <tr>
-    <td width="180" valign="top">
+    <td width="180" align="center" valign="middle">
       <a href="https://github.com/virionai/capsules-protocol">
         <img src="https://github.com/virionai/virionai/raw/main/assets/capsules-icon.png" width="160" alt="Capsules Protocol">
       </a>
     </td>
-    <td width="820" valign="top">
+    <td width="820" valign="middle">
       <h3><a href="https://github.com/virionai/capsules-protocol">capsules-protocol</a> &nbsp;→&nbsp; <em>Intelligence that moves.</em></h3>
       Portable, signed, AI-readable records of multi-actor work. A <code>.capsule</code> archive carries content, context, participants, payloads, and an append-only event chain. Work that survives the tool that created it.<br><br>
       <sub><a href="https://capsules.run/load/">Open a capsule</a> · <a href="https://capsules.run/conformance/">Conformance</a> · <a href="https://capsules.run/roadmap/">Roadmap</a></sub>
@@ -43,27 +43,27 @@ AI made intelligence abundant. The bottleneck now is movement — between people
 
 <table>
   <tr>
-    <td width="180" valign="top">
+    <td width="180" align="center" valign="middle">
       <a href="https://github.com/virionai/operators">
         <img src="https://github.com/virionai/virionai/raw/main/assets/operator-icon.png" width="160" alt="Operators">
       </a>
     </td>
-    <td width="820" valign="top">
+    <td width="820" valign="middle">
       <h3><a href="https://github.com/virionai/operators">operators</a> &nbsp;→&nbsp; <em>A harness built for work.</em></h3>
       Local-first investigative workspace. Humans and local models inspect evidence, capture context, set decision gates, and export a capsule-shaped handoff. Serious AI work needs an operational surface, not a chat box.<br><br>
-      <sub><a href="https://capsules.run/operator/">Open the Operator</a></sub>
+      <sub><a href="https://capsules.run/operator/">Operators proof of concept demo</a></sub>
     </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="180" valign="top">
+    <td width="180" align="center" valign="middle">
       <a href="https://github.com/virionai/researcher-brain">
         <img src="https://github.com/virionai/virionai/raw/main/assets/researcher-brain-icon.png" width="160" alt="Researcher Brain">
       </a>
     </td>
-    <td width="820" valign="top">
+    <td width="820" valign="middle">
       <h3><a href="https://github.com/virionai/researcher-brain">researcher-brain</a> &nbsp;→&nbsp; <em>Because discovery is the whole point.</em></h3>
       A second brain for research in the era when AI produces knowledge, not just retrieves it. A scaffold that turns raw evidence into an AI-maintained graph that compounds over time.<br><br>
       <sub>Immutable evidence · slug-addressed sources · cross-domain probes · durable citations</sub>
