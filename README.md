@@ -2,7 +2,28 @@
 Profile README for the virionai GitHub profile.
 Place this at README.md in the special virionai/virionai repository.
 -->
+<table>
+  <tr>
+    <td width="80">
+      <a href="https://virion.ai">
+        <img src="https://virion.ai/favicon.svg" width="64" alt="Virion">
+      </a>
+    </td>
+    <td>
+      <h1>Virion.ai</h1>
+      <strong><em>Infect Intelligence</em></strong>
+    </td>
+    <td align="right">
+      <sub>
+        <a href="https://virion.ai">virion.ai</a><br>
+        <a href="mailto:contact@virion.ai">contact@virion.ai</a><br>
+        <a href="https://github.com/virion">github</a>
+      </sub>
+    </td>
+  </tr>
+</table>
 
+---
 <p align="center">
   <a href="https://virion.ai">
     <img src="https://virion.ai/favicon.svg" width="72" alt="Virion">
