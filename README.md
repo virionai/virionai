@@ -22,15 +22,17 @@
 Virion builds open infrastructure for **portable, traceable, multi-actor AI work**.
 AI made intelligence abundant. The bottleneck now is movement — between people, models, devices, and time. We build the transport layer.
 
+### Full list of active projects: <a href="https://virion.ai">virion.ai</a>  
+
 ---
 
-## Projects
+### Open Source Projects
 
 <table>
   <tr>
-    <td width="80" valign="top">
+    <td width="160" valign="center">
       <a href="https://github.com/virionai/capsules-protocol">
-        <img src="https://github.com/virionai/virionai/raw/main/capsules-icon.png" width="64" alt="Capsules Protocol">
+        <img src="https://github.com/virionai/virionai/raw/main/capsules-icon.png" width="160" alt="Capsules Protocol">
       </a>
     </td>
     <td width="920" valign="top">
@@ -43,9 +45,9 @@ AI made intelligence abundant. The bottleneck now is movement — between people
 
 <table>
   <tr>
-    <td width="80" valign="top">
+    <td width="160" valign="center">
       <a href="https://github.com/virionai/operators">
-        <img src="https://github.com/virionai/virionai/raw/main/operator-icon.png" width="64" alt="Operators">
+        <img src="https://github.com/virionai/virionai/raw/main/operator-icon.png" width="160" alt="Operators">
       </a>
     </td>
     <td width="920" valign="top">
@@ -58,9 +60,9 @@ AI made intelligence abundant. The bottleneck now is movement — between people
 
 <table>
   <tr>
-    <td width="80" valign="top">
+    <td width="160" valign="center">
       <a href="https://github.com/virionai/researcher-brain">
-        <img src="https://github.com/virionai/virionai/raw/main/researcher-brain-icon.png" width="64" alt="Researcher Brain">
+        <img src="https://github.com/virionai/virionai/raw/main/researcher-brain-icon.png" width="160" alt="Researcher Brain">
       </a>
     </td>
     <td width="920" valign="top">
