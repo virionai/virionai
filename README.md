@@ -6,9 +6,8 @@
     </td>
     <td width="220" align="right" valign="middle">
       <sub>
-        <a href="https://virion.ai">virion.ai</a> ·
+        <a href="https://virion.ai">virion.ai</a><br>
         <a href="https://capsules.run">capsules.run</a><br>
-        <a href="mailto:contact@virion.ai">contact@virion.ai</a><br>
         <a href="https://virion.ai/initiate">collaborate →</a>
       </sub>
     </td>
